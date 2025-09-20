@@ -1,18 +1,11 @@
 {
   "name": "mqtt-broker",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "aedes": "^0.51.3",
-    "aedes-persistence": "^10.2.2",
-    "net": "^1.0.2",
-    "redis": "^5.8.2"
+    "aedes": "^0.51.0"
   }
 }
